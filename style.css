@@ -1,0 +1,359 @@
+a{
+    text-decoration: none;
+}
+
+html,
+body{
+    padding: 0;
+    margin: 0;
+    font-family: roboto-regular;
+    font-size: 14px;
+}
+
+.banner-content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100px;
+    bottom: 100px;
+    align-items: center;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+}
+
+.bg-blue{
+    background-color: #054FBD ! important;
+}
+
+.bg-green{
+    background-color: #049F1D ! important;
+}
+
+.bg-purple{
+    background-color: #9705c0 ! important;
+}
+
+.button-primary,
+.button-light{
+    background-color: #054FBD;
+    color: #FFF;
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: inline-flex ;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+.button-light{
+    background-color: #e5edf8;
+    color: #054fbd;
+}
+
+.button-light :hover{
+    background-color: #fff;
+    color: #054fbd;
+}
+
+.button-lg{
+    padding: 1.3rem 2rem;
+    font-family: roboto-bold;
+}
+
+.button-primary:hover{
+    background-color: #0a5cd8;
+}
+
+.container-sm{
+    padding: 0 20%;
+}
+
+.container{
+    padding: 0 15%;
+}
+
+.d-grid-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.d-grid-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.d-grid-3>div{
+    box-shadow: 0 0 100px rgb(0,0,0,0.2);
+    border-radius: 16px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.d-grid-3>div.card{
+    box-shadow: none;
+    color: #fff;
+}
+
+.d-grid-3>div.card .card-title{
+    font-family: roboto-bold;
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+}
+
+.d-grid-3>div.card .separator{
+    border-top: 1px solid  #fff;
+    margin: 14px 0;
+    width: 90px;
+}
+
+.d-grid-3>div.card .card-button{
+    background-color: #dbe4fe;
+    color: #054fbd;
+    padding: 7px 15px;
+    border-radius: 15px;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    width: fit-content;
+    font-family: roboto-bold;
+    font-size: 12px;
+    justify-content: center;
+}
+
+.d-grid-3> div.card .card-button:hover{
+    background-color: #fff;
+}
+
+.d-grid-3>div.card .card-text{
+    line-height: 20px;
+}
+
+.d-grid-3>div .section-text{
+    line-height: 20px;
+    font-family: roboto-light;
+}
+
+.d-grid-3>div .section-title, .section-header .section-title{
+    font-family: roboto-bold;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+.d-grid-3>div .section-header .separator,.section-header .separator{
+    border-top: 1px solide #0a5cd8;
+    margin: 16px auto;
+    width: 100px;
+}
+
+.d-grid-4>div>img{
+    border-radius: 14px;
+}
+
+
+.full-banner{
+    background-image: url(./assets/images/library.jpg);
+    height: 100Vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.h1-title{
+    color: #fff;
+    font-family: roboto-thin;
+    font-size: 5vw;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+
+.mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-color: rgb(0,0,0,0.5);
+}
+
+.menu-bar{
+    padding: 0 10%;
+}
+.menu-bar .menu-items{
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style-type: none;
+}
+
+.menu-bar .menu-items li{
+    display: inline-block;
+    font-family: roboto-bold;
+    margin: 0 10px;
+}
+
+.menu-bar .menu-items li a{
+    color: #DDD;
+}
+
+.menu-bar .menu-items li a:hover{
+    color: #fff;
+}
+
+.menu-bar table tr td.menu-buttons{
+    text-align: right;
+}
+
+.menu-bar table .logo-td,
+.menu-bar table .menu-buttons{
+    width: 150px;
+}
+
+.middle-zone{
+    background-image: url(./assets/images/education.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.middle-zone-mask{
+    background-color: rgb(0,0,0,0.5);
+    color: #fff;
+}
+
+.middle-zone-mask .middle-zone-title{
+    font-family: roboto-bold;
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+.middle-zone-mask .middle-zone-separator{
+    border-top:1px solid #fff ;
+    width: 100px;
+    margin: 20px auto;
+}
+
+.middle-zone-mask .middle-zone-text{
+    max-width: 450px;
+    margin: auto;
+    line-height: 20px;
+}
+
+.roboto-thin{
+    font-family: roboto-thin
+}
+
+.roboto-regular{
+    font-family: reboto-regular;
+}
+
+.roboto-meduim{
+    font-family: roboto-meduim;
+}
+
+.roboto-bold{
+    font-family: roboto-bold;
+}
+
+.roboto-black{
+    font-family: roboto-black;
+}
+
+.section--{
+    margin-top:-20px;
+    position: relative;
+}
+
+.section-header .section-title-lg{
+    font-family: roboto-bold;
+    font-size: 24px;
+    color: #049f1d;
+}
+
+.social-media-cover{
+    position: fixed;
+    left: 10px;
+    top: 215px;
+    bottom: 215px;
+    width: 40px;
+    display: flex;
+}
+
+.social-media-cover>div{
+    align-self: center;
+    background-color: #e5edf8;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.slogan{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: roboto-bold;
+    font-size: 20px;
+    padding: 20px;
+    border-left: 5px solid #049f1d;
+    width: fit-content;
+    align-self: center;
+    margin: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.logo-partenaire {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-partenaire img {
+    margin: 0 30px;
+}
+
+.text-center .separator {
+    border-top:1px solid #049F1D ;
+    width: 100px;
+    margin: 20px auto;
+}
+
+@font-face{
+    font-family:roboto-thin;
+    src: url(../assets/fonts:roboto/Roboto-Thin.ttf);
+}
+
+@font-face{
+    font-family: roboto-light;
+    src: url(../assets/fonts/roboto/Roboto-Light.ttf);
+}
+
+@font-face{
+    font-family: roboto-regular;
+    src: url(../assets/fonts/roboto/Roboto-Regular.ttf);
+}
+
+@font-face{
+    font-family: roboto-meduim;
+    src: url(../assets/fonts/roboto/Roboto-Meduim.ttf);
+}
+
+@font-face{
+    font-family: roboto-bold;
+    src: url(../assets/fonts/roboto/Roboto-Bold.ttf);
+}
+
+@font-face{
+    font-family: roboto-black;
+    src: url(../assets/fonts/roboto/Roboto-Black.ttf);
+}
+
+.bg-purple{
+    background-color: #9705c0 !important;
+}
